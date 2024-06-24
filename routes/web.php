@@ -33,3 +33,5 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
 // Route Frontend(Depan)
 Route::get('/', [FrontController::class, 'index']);
 Route::get('about', [FrontController::class, 'about']);
+Route::get('product', [FrontController::class, 'product']);
+Route::get('contact', [FrontController::class, 'contact']);

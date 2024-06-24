@@ -20,8 +20,8 @@
             <div class="container">
                 <div class="header-center">
                     <div class="logo">
-                        <a href="index.html">
-                            <img src="./assets/images/logos/logo.webp" alt="logo">
+                        <a href="{{url('/')}}">
+                            <img src="./front/assets/images/logos/logo.webp" alt="logo">
                         </a>
                     </div>
                     <div class="header-cart-items">
@@ -270,7 +270,7 @@
                     </span>
                 </button>
                 <a href="index.html" class="mobile-header-logo">
-                    <img src="./assets/images/logos/logo.webp" alt="logo">
+                    <img src="./front/assets/images/logos/logo.webp" alt="logo">
                 </a>
                 <a href="cart.html" class="header-cart cart-item">
                     <span>
@@ -360,11 +360,11 @@
                     <div class="category-dropdown">
                         <ul class="category-list">
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/dresses.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/dresses.webp"
                                                     alt="dress">
                                             </span>
                                             <span class="dropdown-text">
@@ -386,11 +386,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/bags.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/bags.webp"
                                                     alt="Bags">
                                             </span>
                                             <span class="dropdown-text">
@@ -412,11 +412,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/sweaters.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/sweaters.webp"
                                                     alt="sweaters">
                                             </span>
                                             <span class="dropdown-text">
@@ -438,11 +438,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/shoes.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/shoes.webp"
                                                     alt="sweaters">
                                             </span>
                                             <span class="dropdown-text">
@@ -464,11 +464,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/gift.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/gift.webp"
                                                     alt="gift">
                                             </span>
                                             <span class="dropdown-text">
@@ -490,11 +490,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/sneakers.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/sneakers.webp"
                                                     alt="sneakers">
                                             </span>
                                             <span class="dropdown-text">
@@ -516,11 +516,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/watch.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/watch.webp"
                                                     alt="watch">
                                             </span>
                                             <span class="dropdown-text">
@@ -542,11 +542,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/ring.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/ring.webp"
                                                     alt="ring">
                                             </span>
                                             <span class="dropdown-text">
@@ -568,11 +568,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/cap.webp" alt="cap">
+                                                <img src="./front/assets/images/homepage-one/category-img/cap.webp" alt="cap">
                                             </span>
                                             <span class="dropdown-text">
                                                 Cap
@@ -593,11 +593,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/glass.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/glass.webp"
                                                     alt="glass">
                                             </span>
                                             <span class="dropdown-text">
@@ -619,11 +619,11 @@
                                 </a>
                             </li>
                             <li class="category-list-item">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="./assets/images/homepage-one/category-img/baby.webp"
+                                                <img src="./front/assets/images/homepage-one/category-img/baby.webp"
                                                     alt="baby">
                                             </span>
                                             <span class="dropdown-text">
@@ -671,11 +671,11 @@
                         <div class="category-dropdown position-absolute" id="subMenu">
                             <ul class="category-list">
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item">
                                             <div class="dropdown-list-item">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/dresses.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/dresses.webp"
                                                         alt="dress">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -697,11 +697,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/bags.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/bags.webp"
                                                         alt="Bags">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -723,11 +723,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/sweaters.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/sweaters.webp"
                                                         alt="sweaters">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -749,11 +749,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/shoes.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/shoes.webp"
                                                         alt="sweaters">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -775,11 +775,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/gift.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/gift.webp"
                                                         alt="gift">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -801,11 +801,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/sneakers.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/sneakers.webp"
                                                         alt="sneakers">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -827,11 +827,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/watch.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/watch.webp"
                                                         alt="watch">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -853,11 +853,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/ring.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/ring.webp"
                                                         alt="ring">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -879,11 +879,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/cap.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/cap.webp"
                                                         alt="cap">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -905,11 +905,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/glass.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/glass.webp"
                                                         alt="glass">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -931,11 +931,11 @@
                                     </a>
                                 </li>
                                 <li class="category-list-item">
-                                    <a href="product-sidebar.html">
+                                    <a href="{{url('/product')}}">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="./assets/images/homepage-one/category-img/baby.webp"
+                                                    <img src="./front/assets/images/homepage-one/category-img/baby.webp"
                                                         alt="baby">
                                                 </span>
                                                 <span class="dropdown-text">
@@ -962,12 +962,12 @@
                     <div class="header-nav-menu">
                         <ul class="menu-list">
                             <li>
-                                <a href="index.html">
+                                <a href="{{url('/')}}">
                                     <span class="list-text">Home</span>
                                 </a>
                             </li>
                             <li class="mega-menu">
-                                <a href="product-sidebar.html">
+                                <a href="{{url('/product')}}">
                                     <span class="list-text">Shop</span>
                                     <span>
                                         <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
@@ -990,30 +990,30 @@
                                         <div class="menu-list">
                                             <h5 class="menu-title">Dresses</h5>
                                             <ul>
-                                                <li><a href="product-sidebar.html">Shirt</a></li>
-                                                <li><a href="product-sidebar.html">Skart</a></li>
-                                                <li><a href="product-sidebar.html"> T-Shirt</a></li>
+                                                <li><a href="{{url('/product')}}">Shirt</a></li>
+                                                <li><a href="{{url('/product')}}">Skart</a></li>
+                                                <li><a href="{{url('/product')}}"> T-Shirt</a></li>
                                             </ul>
                                         </div>
                                         <div class="menu-list">
                                             <h5 class="menu-title">Bags</h5>
                                             <ul>
-                                                <li><a href="product-sidebar.html">HandBags</a></li>
-                                                <li><a href="product-sidebar.html">Mobile Bags</a></li>
-                                                <li><a href="product-sidebar.html">School Bags</a></li>
+                                                <li><a href="{{url('/product')}}">HandBags</a></li>
+                                                <li><a href="{{url('/product')}}">Mobile Bags</a></li>
+                                                <li><a href="{{url('/product')}}">School Bags</a></li>
                                             </ul>
                                         </div>
                                         <div class="menu-list">
                                             <h5 class="menu-title">Cosmetics</h5>
                                             <ul>
-                                                <li><a href="product-sidebar.html">Liptics</a></li>
-                                                <li><a href="product-sidebar.html">Foundation</a></li>
-                                                <li><a href="product-sidebar.html"> Eye Liner</a></li>
+                                                <li><a href="{{url('/product')}}">Liptics</a></li>
+                                                <li><a href="{{url('/product')}}">Foundation</a></li>
+                                                <li><a href="{{url('/product')}}"> Eye Liner</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="shop-menu-img">
-                                        <img src="./assets/images/homepage-one/empty-wishlist.webp" alt="img">
+                                        <img src="./front/assets/images/homepage-one/empty-wishlist.webp" alt="img">
                                     </div>
                                 </div>
                             </li>
@@ -1041,12 +1041,12 @@
                                     <li><a href="privacy.html">Privacy Policy</a></li>
                                     <li><a href="terms.html">Terms & Condition</a></li>
                                     <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="product-sidebar.html">Shop Category Icon</a></li>
-                                    <li><a href="product-sidebar.html">Shop List View</a></li>
+                                    <li><a href="{{url('/product')}}">Shop Category Icon</a></li>
+                                    <li><a href="{{url('/product')}}">Shop List View</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="about.html">
+                                <a href="{{url('/about')}}">
                                     <span class="list-text">About</span>
                                 </a>
                             </li>
@@ -1064,7 +1064,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="contact-us.html">
+                                <a href="{{url('/contact')}}">
                                     <span class="list-text">Contact</span>
                                 </a>
                             </li>

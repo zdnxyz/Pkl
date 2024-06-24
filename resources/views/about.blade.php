@@ -22,7 +22,7 @@
                 <div class="row align-items-center gy-5">
                     <div class="col-lg-6">
                         <div class="about-img" data-aos="fade-right">
-                            <img src="./assets/images/homepage-one/about/about-img-1.webp" alt="img">
+                            <img src="./front/assets/images/homepage-one/about/about-img-1.webp" alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -250,7 +250,7 @@
                 </svg>
             </span>
         </a>
-        <video src="./assets/images/homepage-one/about/advertrisement-vedio.mp4" autoplay loop muted></video>
+        <video src="./front/assets/images/homepage-one/about/advertrisement-vedio.mp4" autoplay loop muted></video>
     </div>
     <!--------------- about-promotion-end---------------->
 
@@ -305,7 +305,7 @@
                             <div class="divider"></div>
                             <div class="testimonial-info">
                                 <div class="testimonial-img">
-                                    <img src="./assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
+                                    <img src="./front/assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
                                     <h5 class="testimonial-name">Md Abdur Rahman</h5>
@@ -356,7 +356,7 @@
                             <div class="divider"></div>
                             <div class="testimonial-info">
                                 <div class="testimonial-img">
-                                    <img src="./assets/images/homepage-one/about/testimonial-img-2.webp" alt="img">
+                                    <img src="./front/assets/images/homepage-one/about/testimonial-img-2.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
                                     <h5 class="testimonial-name">Mohammad Sajjad Hossain</h5>
@@ -407,7 +407,7 @@
                             <div class="divider"></div>
                             <div class="testimonial-info">
                                 <div class="testimonial-img">
-                                    <img src="./assets/images/homepage-one/about/testimonial-img-3.webp" alt="img">
+                                    <img src="./front/assets/images/homepage-one/about/testimonial-img-3.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
                                     <h5 class="testimonial-name">Stefhen Hoking</h5>
@@ -459,7 +459,7 @@
                             <div class="divider"></div>
                             <div class="testimonial-info">
                                 <div class="testimonial-img">
-                                    <img src="./assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
+                                    <img src="./front/assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
                                     <h5 class="testimonial-name">Abdullah Al Mamun</h5>
@@ -510,7 +510,7 @@
                             <div class="divider"></div>
                             <div class="testimonial-info">
                                 <div class="testimonial-img">
-                                    <img src="./assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
+                                    <img src="./front/assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
                                     <h5 class="testimonial-name">Mohammad Rashed Khan</h5>
@@ -561,7 +561,7 @@
                             <div class="divider"></div>
                             <div class="testimonial-info">
                                 <div class="testimonial-img">
-                                    <img src="./assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
+                                    <img src="./front/assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
                                     <h5 class="testimonial-name">Shuvo Raihan</h5>
@@ -591,7 +591,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="blogs-wrapper product-wrapper" data-aos="fade-up" data-aos-duration="300">
                             <div class="wrapper-img">
-                                <img src="./assets/images/homepage-one/about/about-img-2.webp" alt="">
+                                <img src="./front/assets/images/homepage-one/about/about-img-2.webp" alt="">
                             </div>
                             <div class="wrapper-info">
                                 <div class="wrapper-data">
@@ -650,7 +650,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="blogs-wrapper product-wrapper" data-aos="fade-up" data-aos-duration="400">
                             <div class="wrapper-img">
-                                <img src="./assets/images/homepage-one/about/about-img-3.webp" alt="">
+                                <img src="./front/assets/images/homepage-one/about/about-img-3.webp" alt="">
                             </div>
                             <div class="wrapper-info">
                                 <div class="wrapper-data">
@@ -710,7 +710,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="blogs-wrapper product-wrapper" data-aos="fade-up" data-aos-duration="600">
                             <div class="wrapper-img">
-                                <img src="./assets/images/homepage-one/about/about-img-4.webp" alt="">
+                                <img src="./front/assets/images/homepage-one/about/about-img-4.webp" alt="">
                             </div>
                             <div class="wrapper-info">
                                 <div class="wrapper-data">
