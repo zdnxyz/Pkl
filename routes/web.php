@@ -1,6 +1,7 @@
 <?php
-
+use App\Http\Middleware\isAdmin;
 use App\Http\Controllers\FrontController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,21 +18,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');   
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-// Route Admin (Backend)
-Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
-    Route::get('/', function (){
+Route::group(['prefix' => 'admin', 'middleware' => ['auth', isAdmin::class]], function () {
+    Route::get('/', function () {
         return view('admin.index');
     });
-    // Route Selanjutnya ....
-});
+    // untuk Route Backend Lainnya
+    Route::resource('user', \App\Http\Controllers\UserController::class);
+    });
 
 // Route Frontend(Depan)
 Route::get('/', [FrontController::class, 'index']);
 Route::get('about', [FrontController::class, 'about']);
 Route::get('product', [FrontController::class, 'product']);
 Route::get('contact', [FrontController::class, 'contact']);
+Route::get('productinfo', [FrontController::class, 'productinfo']);

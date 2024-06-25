@@ -139,7 +139,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-1.webp"
+                                                <img src="/front/assets/images/homepage-one/product-img/product-img-1.webp"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">
@@ -161,7 +161,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-2.webp"
+                                                <img src="/front/assets/images/homepage-one/product-img/product-img-2.webp"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">
@@ -183,7 +183,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-3.webp"
+                                                <img src="/front/assets/images/homepage-one/product-img/product-img-3.webp"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">
@@ -205,7 +205,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-4.webp"
+                                                <img src="/front/assets/images/homepage-one/product-img/product-img-4.webp"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">

@@ -49,7 +49,7 @@
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="{{asset('assets/js/config.js')}}"></script>
   </head>
-
+  @yield('styles')
   <body>
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar">
@@ -117,5 +117,7 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="{{asset('https://buttons.github.io/buttons.js')}}"></script>
+    @stack('script')
   </body>
+  
 </html>
