@@ -1,20 +1,17 @@
 @extends('layouts.admin')
+
 @section('styles')
 <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.bootstrap5.css">
 @endsection
 
 @section('content')
 <h4 class="py-3 mb-4"><span class="text-muted fw-light">Tables /</span> User</h4>
-<div class="card">
-    <div class="card-header">
-        <div class="float-start">
-            <h5>User</h5>
-        </div>
-        <div class="float-end">
-            <a href="{{route('user.create')}}" class="btn btn-sm btn-primary">
-                Add
-            </a>
-        </div>
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5>User</h5>
+        <a href="{{route('user.create')}}" class="btn btn-sm btn-primary">
+            Add
+        </a>
     </div>
     <div class="card-body">
         <div class="table-responsive text-nowrap">
@@ -22,7 +19,7 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Name</th>
+                        <th>Name</th>   
                         <th>Email</th>
                         <th>Role</th>
                         <th>Actions</th>
@@ -57,7 +54,7 @@
 </div>
 @endsection
 
-@push('scripts')
+@push('script')
 <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
 <script src="https://cdn.datatables.net/2.0.8/js/dataTables.bootstrap5.js"></script>
 <script>
